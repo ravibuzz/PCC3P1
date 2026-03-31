@@ -744,3 +744,645 @@ export default function App() {
   );
 }
 
+      { letter: "B", text: "oxigenoterapia para alvo de SpO2 88-92%, salbutamol inalatório e montelucaste via oral." },
+      { letter: "C", text: "oxigenoterapia para alvo de SpO2 93-95%, brometo de ipratrópio isolado e azitromicina endovenosa." },
+      { letter: "D", text: "oxigenoterapia para alvo de SpO2 93-95%, beta-2 agonista de curta ação associado a anticolinérgico inalatório e corticoide sistêmico precoce." }
+    ],
+    answer: "D",
+    correctJustification: "Na emergência de asma moderada/grave, a conduta imediata baseia-se em: Oxigenoterapia (alvo 93-95% para asma, diferente do DPOC), resgate com SABA (Salbutamol) preferencialmente em spray com espaçador, associado a anticolinérgico de curta ação (Brometo de Ipratrópio) para potencializar a broncodilatação, e a administração na primeira hora de Corticosteroide Sistêmico (prednisona/prednisolona VO ou hidrocortisona EV), que reduz inflamação, recaídas e acelera a recuperação.",
+    distractorJustification: "(A) Incorreta. Intubação imediata é reservada para rebaixamento de nível de consciência ou parada respiratória iminente. Tenta-se tratamento clínico otimizado primeiro. Sulfato de magnésio é EV, não oral.\n(B) Incorreta. O alvo de 88-92% é para DPOC retentor de CO2. Na asma, o alvo é 93-95%. Montelucaste não tem papel no resgate de crise aguda grave.\n(C) Incorreta. SABA (Salbutamol) é o pilar, não Ipratrópio isolado. Antibiótico (azitromicina) só tem indicação se houver sinal claro de infecção bacteriana associada (como pneumonia), o que não é descrito."
+  },
+  {
+    id: 8,
+    theme: "ASMA BRÔNQUICA",
+    text: "Mulher de 45 anos, acompanhada em ambulatório de atenção secundária de pneumologia, possui diagnóstico de asma grave (Etapa 5 do GINA). Relata exacerbações frequentes e necessidade de ciclos repetidos de prednisona oral, apesar do uso otimizado e adesão confirmada a corticoide inalatório em dose alta associado a formoterol. Apresenta comorbidade de rinossinusite crônica com polipose nasal. Exames laboratoriais recentes revelam:",
+    table: {
+      headers: ["Exame", "Resultado", "Valor de referência"],
+      rows: [
+        ["Eosinófilos no sangue", "650 céls/µL", "40 a 400 céls/µL"],
+        ["IgE sérica total", "85 UI/mL", "Até 100 UI/mL"],
+        ["FeNO (Fração exalada de óxido nítrico)", "45 ppb", "< 25 ppb"]
+      ]
+    },
+    question: "A hipótese diagnóstica fenotípica e a conduta terapêutica alvo mais adequada são, respectivamente:",
+    options: [
+      { letter: "A", text: "asma neutrofílica (T2-low) e introdução de azitromicina em baixa dose contínua." },
+      { letter: "B", text: "asma alérgica clássica (IgE mediada) e introdução de imunobiológico anti-IgE (omalizumabe)." },
+      { letter: "C", text: "asma eosinofílica tardia (T2-high) e introdução de imunobiológico anti-IL-5 (ex: mepolizumabe) ou anti-IL-4R (dupilumabe)." },
+      { letter: "D", text: "asma paucigranulocítica e indicação de termoplastia brônquica imediata." }
+    ],
+    answer: "C",
+    correctJustification: "O quadro clínico (início na idade adulta, rinossinusite com pólipos) e laboratorial (eosinofilia sanguínea > 150-300 céls/µL e FeNO elevado, com IgE normal) caracteriza o endótipo T2-Alto (T2-high), especificamente o subtipo eosinofílico tardio (não primariamente alérgico IgE-dependente). Para pacientes na Etapa 5 não controlados e dependentes de corticoide oral com esse perfil, a conduta padrão-ouro atual é a fenotipagem e uso de terapia biológica direcionada ao eixo eosinofílico, como os bloqueadores de IL-5 (mepolizumabe, benralizumabe) ou de IL-4/IL-13 (dupilumabe).",
+    distractorJustification: "(A) Incorreta. A asma neutrofílica (T2-low) apresentaria eosinófilos baixos e FeNO baixo. Azitromicina pode ser tentada no T2-low, mas não é o caso aqui.\n(B) Incorreta. A asma alérgica pura tipicamente inicia na infância, cursa com IgE elevada e testes de atopia positivos. Com IgE de 85 UI/mL e predominância eosinofílica severa com pólipos, o anti-IgE (omalizumabe) é menos específico que os anti-IL5/IL4R.\n(D) Incorreta. A asma paucigranulocítica tem inflamação mínima (eosinófilos e neutrófilos baixos). A termoplastia é último recurso para perfis muito específicos e refratários, não a primeira linha para perfil T2-alto florido."
+  },
+  {
+    id: 9,
+    theme: "ASMA BRÔNQUICA",
+    text: "Homem de 22 anos, mecânico, é acompanhado na Unidade Básica de Saúde (UBS) por asma persistente. Durante a consulta, ele se queixa de que a pior fase da sua doença é sempre durante a madrugada, acordando por volta das 3h da manhã com forte sensação de aperto no peito e sibilância, necessitando usar o spray de resgate.",
+    question: "Considerando o ciclo circadiano e a fisiopatologia da asma noturna, o mecanismo que justifica a piora clínica neste horário é:",
+    options: [
+      { letter: "A", text: "o aumento do nível de cortisol plasmático durante a noite, causando resposta inflamatória rebote e hipertrofia de glândulas submucosas." },
+      { letter: "B", text: "a queda natural do cortisol aliada ao aumento do tônus vagal e à redução da temperatura corporal, que favorecem o broncoespasmo." },
+      { letter: "C", text: "o aumento da atividade da medula adrenal com alta liberação de adrenalina, gerando taquicardia e broncoconstrição paradoxal." },
+      { letter: "D", text: "o aumento da capacidade residual funcional (CRF) pelo relaxamento muscular durante o sono, que dilata excessivamente os brônquios, retendo muco." }
+    ],
+    answer: "B",
+    correctJustification: "A piora noturna da asma tem clara base fisiológica: ocorre uma queda fisiológica do cortisol (reduzindo a atividade anti-inflamatória noturna) e uma redução da adrenalina circulante. Ao mesmo tempo, há um aumento do tônus parassimpático (vagal), que estimula a contração da musculatura lisa brônquica. Somam-se a isso o resfriamento das vias aéreas e a redução do tônus da musculatura respiratória, que diminui a capacidade residual funcional (CRF) facilitando o fechamento das pequenas vias aéreas.",
+    distractorJustification: "(A) Incorreta. O cortisol diminui durante a noite e tem pico de manhã cedo, logo não há \"aumento\" do cortisol na madrugada.\n(C) Incorreta. Ocorre exatamente o oposto: a adrenalina (que é broncodilatadora) cai à noite, favorecendo a broncoconstrição.\n(D) Incorreta. Durante o sono, a Capacidade Residual Funcional (CRF) reduz (chegando a cair 40% em asmáticos), aumentando a resistência das vias aéreas, e não aumentando a CRF."
+  },
+  {
+    id: 10,
+    theme: "ASMA BRÔNQUICA",
+    text: "Criança de 10 anos, sexo feminino, diagnosticada com asma leve, encontra-se em acompanhamento ambulatorial. Como a paciente tem forte componente atópico e rinite associada, o médico prescreveu Montelucaste de sódio, além do corticoide inalatório de manutenção. Durante uma sessão de educação em saúde, a mãe pergunta por que a criança precisa dessa medicação em vez de apenas tomar o anti-histamínico (loratadina) que já usa para a alergia.",
+    question: "A explicação fisiopatológica correta para a diferença na eficácia dessas classes de medicamentos na asma baseia-se no fato de que:",
+    options: [
+      { letter: "A", text: "a histamina é o único mediador da fase tardia da asma, enquanto os leucotrienos agem apenas na fase imediata, causando vasodilatação." },
+      { letter: "B", text: "os anti-histamínicos destroem o epitélio brônquico se usados cronicamente, enquanto o Montelucaste regenera a membrana basal." },
+      { letter: "C", text: "os leucotrienos promovem broncoconstrição intensa e duradoura, aumento de muco e recrutamento celular na fase tardia, justificando o uso de antagonistas de leucotrienos na manutenção da asma." },
+      { letter: "D", text: "a histamina estimula a produção de óxido nítrico, que é um potente broncoconstritor, enquanto os leucotrienos causam dilatação passiva da via aérea." }
+    ],
+    answer: "C",
+    correctJustification: "Na cascata inflamatória da asma, a histamina (liberada rapidamente por mastócitos) tem papel na fase aguda imediata (vasodilatação, prurido, broncoconstrição inicial). No entanto, os leucotrienos (LTC4, LTD4, LTE4) possuem ação broncoconstritora muito mais potente e duradoura, promovem hipersecreção de muco profunda, edema e recrutam células inflamatórias mantendo a inflamação na fase tardia e crônica. Por isso, bloquear leucotrienos (com Montelucaste) ajuda no controle da asma, enquanto anti-histamínicos têm baixo impacto na inflamação brônquica inferior.",
+    distractorJustification: "(A) Incorreta. É o inverso: a histamina age na fase imediata e os leucotrienos têm papel marcante na fase tardia e crônica.\n(B) Incorreta. Anti-histamínicos não destroem o epitélio brônquico. Eles apenas não têm eficácia suficiente para controlar a inflamação das vias aéreas inferiores.\n(D) Incorreta. O óxido nítrico atua como broncodilatador, não broncoconstritor. Os leucotrienos são potentes broncoconstritores, não dilatadores."
+  },
+
+  // TEMA 3
+  {
+    id: 11,
+    theme: "DOENÇA PULMONAR OBSTRUTIVA CRÔNICA (DPOC)",
+    text: "Homem de 68 anos, tabagista ativo (60 maços/ano), com diagnóstico prévio de Doença Pulmonar Obstrutiva Crônica (DPOC), é admitido na sala de emergência da UPA com rebaixamento do nível de consciência, cianose de extremidades e respiração paradoxal. Foi trazido pelo SAMU, que iniciou oxigênio sob máscara não reinalante a 15 L/min durante o trajeto (cerca de 40 minutos). Na admissão, a gasometria arterial revela:",
+    table: {
+      headers: ["Exame", "Resultado", "Valor de referência"],
+      rows: [
+        ["pH", "7,20", "7,35 - 7,45"],
+        ["pCO2", "85 mmHg", "35 - 45 mmHg"],
+        ["pO2", "160 mmHg", "80 - 100 mmHg"],
+        ["HCO3", "32 mEq/L", "22 - 26 mEq/L"],
+        ["BE", "+6", "-2 a +2"],
+        ["SpO2", "99%", "95% - 100%"]
+      ]
+    },
+    question: "O distúrbio ácido-básico e a fisiopatologia do agravamento causado pela conduta pré-hospitalar são, respectivamente:",
+    options: [
+      { letter: "A", text: "acidose metabólica descompensada; a alta fração inspirada de oxigênio inibiu a produção renal de bicarbonato." },
+      { letter: "B", text: "acidose respiratória aguda sobreposta à crônica; o excesso de oxigênio aboliu o drive respiratório hipóxico e gerou Efeito Haldane." },
+      { letter: "C", text: "alcalose respiratória compensada; o uso de máscara não reinalante provocou hiperventilação reflexa por ansiedade." },
+      { letter: "D", text: "acidose respiratória pura não compensada; a hipoxemia severa causou fadiga diafragmática irreversível." }
+    ],
+    answer: "B",
+    correctJustification: "O paciente apresenta acidose respiratória (pH baixo com pCO2 muito alto). O HCO3 alto (32) indica que ele já é um retentor crônico de CO2 (compensação renal prévia). Administrar altas doses de oxigênio para pacientes com DPOC (SpO2 chegou a 99%, pO2 160) é perigoso porque esses pacientes dependem da hipóxia leve como drive respiratório. O excesso de O2 suprime o centro respiratório (hipoventilação), gera o Efeito Haldane (a hemoglobina rica em O2 libera o CO2 preso, jogando-o no plasma) e piora a relação V/Q (vasodilatação de áreas mal ventiladas). Isso resulta em narcose por acúmulo agudo de CO2. O alvo seguro na DPOC é SpO2 88-92%.",
+    distractorJustification: "(A) Incorreta. O distúrbio é acidose respiratória (pH primariamente guiado pelo CO2 alto), não metabólica.\n(C) Incorreta. O pH está baixo (7,20), configurando acidose, não alcalose. PCO2 alto indica hipoventilação, não hiperventilação.\n(D) Incorreta. O bicarbonato está em 32, o que demonstra que existe compensação metabólica prévia (aguda sobreposta à crônica), portanto não é uma acidose não compensada \"pura\"."
+  },
+  {
+    id: 12,
+    theme: "DOENÇA PULMONAR OBSTRUTIVA CRÔNICA (DPOC)",
+    text: "Mulher de 58 anos, trabalhadora rural que cozinhou em fogão a lenha por 35 anos, queixa-se no ambulatório de dispneia aos médios esforços e tosse produtiva diária. O médico suspeita de DPOC e solicita uma espirometria, que é realizada em repouso e após o uso de 400 mcg de salbutamol.",
+    question: "Para confirmar o diagnóstico de DPOC, de acordo com o protocolo GOLD, o achado espirométrico pós-broncodilatador obrigatório é:",
+    options: [
+      { letter: "A", text: "VEF1/CVF < 0,70." },
+      { letter: "B", text: "VEF1 < 80% do previsto." },
+      { letter: "C", text: "reversibilidade do VEF1 com aumento superior a 12% e 200 mL." },
+      { letter: "D", text: "aumento da Capacidade Vital Forçada (CVF) superior a 110%." }
+    ],
+    answer: "A",
+    correctJustification: "O critério funcional absoluto e padrão-ouro para o diagnóstico da Doença Pulmonar Obstrutiva Crônica (DPOC) é a demonstração de limitação fixa (ou não totalmente reversível) ao fluxo aéreo. Isso é definido na espirometria por uma relação VEF1/CVF (Índice de Tiffeneau) menor que 0,70 após a administração de broncodilatador.",
+    distractorJustification: "(B) Incorreta. O VEF1 < 80% do previsto serve para classificar a gravidade da obstrução (estágios GOLD 1, 2, 3, 4), mas não diagnostica a DPOC. Um paciente pode ter DPOC GOLD 1 com VEF1 ≥ 80%, desde que a relação VEF1/CVF seja < 0,70.\n(C) Incorreta. Reversibilidade significativa (aumento de 12% e 200mL) sugere asma, não DPOC, embora pacientes com DPOC possam ter alguma variação. A marca da DPOC é a irreversibilidade da obstrução abaixo de 0,70.\n(D) Incorreta. O aumento da CVF não é critério diagnóstico; na verdade, na DPOC há hiperinsuflação e aprisionamento aéreo que tendem a manter a CVF normal ou levemente reduzida por restrição volumétrica funcional secundária."
+  },
+  {
+    id: 13,
+    theme: "DOENÇA PULMONAR OBSTRUTIVA CRÔNICA (DPOC)",
+    text: "Homem de 65 anos, tabagista ativo, apresenta fenótipo clássico de Pink Puffer (soprador rosado): magro, tórax em barril, uso acentuado de musculatura acessória e respiração com os lábios semicerrados, mantendo SpO2 em 93% no repouso, com pouca tosse produtiva. Tomografia de tórax evidencia áreas de baixa atenuação nos lobos superiores e redução da trama vascular.",
+    question: "A principal base fisiopatológica que explica as alterações estruturais do enfisema predominante neste fenótipo é:",
+    options: [
+      { letter: "A", text: "a hipertrofia e hiperplasia das glândulas submucosas secretoras de muco nas grandes vias aéreas." },
+      { letter: "B", text: "o desequilíbrio protease-antiprotease, onde a elastase neutrofílica destrói os septos alveolares." },
+      { letter: "C", text: "a broncoconstrição mediada por leucotrienos com remodelamento e espessamento da membrana basal epitelial." },
+      { letter: "D", text: "o espessamento irreversível da pleura visceral devido à inflamação crônica mediada por macrófagos." }
+    ],
+    answer: "B",
+    correctJustification: "O fenótipo Pink Puffer reflete primariamente o enfisema. A fisiopatologia do enfisema envolve a exposição crônica à fumaça do cigarro, que recruta macrófagos e neutrófilos para os pulmões. Estas células liberam enzimas proteolíticas, especialmente a elastase neutrofílica. O estresse oxidativo inativa as antiproteases naturais do corpo (como a alfa-1 antitripsina), gerando um desequilíbrio \"protease-antiprotease\". Sem essa proteção, as enzimas degradam as fibras elásticas e os septos alveolares, levando à perda permanente da arquitetura pulmonar e hiperinsuflação.",
+    distractorJustification: "(A) Incorreta. Hiperplasia de glândulas mucosas e hipersecreção descrevem a fisiopatologia da bronquite crônica (fenótipo Blue Bloater), não do enfisema puro.\n(C) Incorreta. Remodelamento de membrana basal e ação central de leucotrienos são características da fisiopatologia da asma.\n(D) Incorreta. O enfisema é uma doença de destruição do parênquima pulmonar (alvéolos), não de espessamento inflamatório da pleura visceral."
+  },
+  {
+    id: 14,
+    theme: "DOENÇA PULMONAR OBSTRUTIVA CRÔNICA (DPOC)",
+    text: "Homem de 72 anos, ex-tabagista, com DPOC diagnosticada há 3 anos. Retorna à UBS para controle regular. Informa que não teve nenhuma crise de bronquite no último ano (zero exacerbações), mas se queixa de muita falta de ar para caminhar curtas distâncias no plano (escore mMRC 3) e o questionário CAT resultou em 18 pontos. A espirometria mostra VEF1/CVF 0,60 e VEF1 55% do previsto.",
+    question: "Com base na classificação ABE do GOLD (Atualizada), a classificação deste paciente e a conduta farmacológica de manutenção recomendada são, respectivamente:",
+    options: [
+      { letter: "A", text: "Grupo E; iniciar terapia tripla com LABA + LAMA + Corticoide Inalatório." },
+      { letter: "B", text: "Grupo A; iniciar monoterapia com broncodilatador de curta ação (SABA) sob demanda." },
+      { letter: "C", text: "Grupo B; iniciar dupla broncodilatação com LABA + LAMA." },
+      { letter: "D", text: "Grupo A; iniciar corticoide sistêmico contínuo associado a LAMA." }
+    ],
+    answer: "C",
+    correctJustification: "A avaliação ABE do GOLD divide os pacientes pelo risco (exacerbações) e sintomas (mMRC ou CAT). O paciente teve 0 exacerbações no ano (baixo risco), mas é muito sintomático (mMRC ≥ 2 ou CAT ≥ 10, no caso mMRC 3 e CAT 18). Portanto, ele se enquadra no Grupo B. A diretriz preconiza que para o Grupo B, o tratamento preferencial de manutenção é a dupla broncodilatação (LABA + LAMA), visando melhor controle da dispneia.",
+    distractorJustification: "(A) Incorreta. O Grupo E (\"Exacerbadores\") exige histórico de ≥ 2 exacerbações moderadas ou ≥ 1 hospitalização no último ano. O paciente teve zero.\n(B) Incorreta. O Grupo A é para pacientes pouco sintomáticos (mMRC 0-1, CAT < 10) e baixo risco (0 exacerbações).\n(D) Incorreta. Corticoide sistêmico contínuo não é indicado como terapia de manutenção em DPOC devido aos efeitos adversos, e o grupo correto do paciente é o B."
+  },
+  {
+    id: 15,
+    theme: "DOENÇA PULMONAR OBSTRUTIVA CRÔNICA (DPOC)",
+    text: "Homem de 75 anos, paciente com DPOC avançada, procura a Unidade de Pronto Atendimento (UPA) queixando-se de piora acentuada da falta de ar há 3 dias. Refere também que a quantidade de escarro, que habitualmente era rala e esbranquiçada, dobrou de volume e tornou-se amarelo-esverdeada espessa. A temperatura axilar é de 37,2 °C. A equipe diagnostica Exacerbação Aguda da DPOC (E-DPOC).",
+    question: "Considerando a fisiopatologia e os protocolos de manejo das exacerbações da DPOC, além dos broncodilatadores e corticoide sistêmico, a conduta medicamentosa adicional com forte indicação neste momento é:",
+    options: [
+      { letter: "A", text: "introdução de inibidor de leucotrieno (montelucaste) oral por 30 dias." },
+      { letter: "B", text: "prescrição de antibiótico (ex: amoxicilina-clavulanato), devido à presença de escarro purulento associado a piora da dispneia e volume." },
+      { letter: "C", text: "início de imunobiológico anti-IgE na emergência para reduzir a inflamação brônquica aguda." },
+      { letter: "D", text: "nebulização contínua com agonista beta-2 associado a oxigênio a 10 L/min até melhora da purulência." }
+    ],
+    answer: "B",
+    correctJustification: "O uso de antibióticos na exacerbação da DPOC é indicado quando há sinais claros de infecção bacteriana secundária, classicamente definidos pelos critérios de Anthonisen: presença de escarro purulento (mudança na cor) associado ao aumento da dispneia ou aumento do volume do escarro (como no caso do paciente, que tem os 3 critérios). Antibióticos comuns incluem betalactâmicos, macrolídeos ou quinolonas.",
+    distractorJustification: "(A) Incorreta. Inibidores de leucotrienos têm papel restrito e de prevenção na asma leve/moderada, sem evidência robusta para tratamento de exacerbação de DPOC.\n(C) Incorreta. Imunobiológicos (anti-IgE) são usados para asma alérgica grave ambulatorial, não têm papel na exacerbação aguda bacteriana da DPOC.\n(D) Incorreta. O uso de oxigênio em alto fluxo (10 L/min) na DPOC é contraindicado pelo risco de supressão do drive respiratório, acúmulo de CO2 e narcose. O alvo é 88-92%. Além disso, não trata a infecção primária causadora da alteração do escarro."
+  },
+
+  // TEMA 4
+  {
+    id: 16,
+    theme: "TUBERCULOSE PULMONAR E PLEURAL",
+    text: "Homem de 26 anos, previamente hígido, estudante de direito, apresenta-se no pronto-socorro com queixa de dor torácica tipo pleurítica à direita, tosse seca e febre vespertina há 3 semanas. Ao exame físico: paciente emagrecido, murmúrio vesicular abolido na base direita com macicez à percussão. A radiografia de tórax confirma derrame pleural volumoso à direita. Uma toracocentese diagnóstica é realizada.",
+    table: {
+      headers: ["Exame do Líquido Pleural", "Resultado", "Valor de referência"],
+      rows: [
+        ["Proteínas (Pleura/Soro)", "0,7", "< 0,5 (Transudato)"],
+        ["LDH (Pleura/Soro)", "0,8", "< 0,6 (Transudato)"],
+        ["Celularidade global", "3.500 céls/mm³", "< 1.000 céls/mm³"],
+        ["Diferencial", "90% Linfócitos", "Variável"],
+        ["Glicose", "50 mg/dL", "> 60 mg/dL"],
+        ["ADA (Adenosina Deaminase)", "65 U/L", "< 40 U/L"]
+      ]
+    },
+    question: "A hipótese diagnóstica primária e o mecanismo fisiopatológico do derrame pleural são:",
+    options: [
+      { letter: "A", text: "pneumonia bacteriana comunitária; transudação capilar devido ao aumento da pressão hidrostática pulmonar." },
+      { letter: "B", text: "tuberculose pleural; reação inflamatória e hipersensibilidade mediada por linfócitos T aos antígenos do bacilo no espaço pleural." },
+      { letter: "C", text: "empiema bacteriano; multiplicação maciça de neutrófilos e bactérias consumindo a glicose do líquido pleural." },
+      { letter: "D", text: "tuberculose primária; destruição extensa da pleura visceral por ação lítica da parede rica em ácidos micólicos do bacilo." }
+    ],
+    answer: "B",
+    correctJustification: "O perfil do líquido é clássico de tuberculose pleural: exsudato (pelos critérios de Light, proteínas e LDH aumentados), predomínio linfocitário, glicose consumida (baixa) e ADA elevado (>40-49 U/L). A fisiopatologia da TB pleural não se baseia em grande carga bacilar (é paucibacilar), mas sim em uma intensa reação imunológica de hipersensibilidade tardia mediada por linfócitos T CD4+ aos antígenos do M. tuberculosis que alcançaram a pleura, gerando inflamação e aumento da permeabilidade vascular.",
+    distractorJustification: "(A) Incorreta. Pneumonia bacteriana causaria um derrame parapneumônico (exsudato neutrofílico, não linfocitário) e o derrame por pressão hidrostática (ex: insuficiência cardíaca) seria um transudato, mas os critérios de Light confirmam exsudato.\n(C) Incorreta. Um empiema bacteriano apresentaria aspecto francamente purulento com predomínio maciço de polimorfonucleares (neutrófilos), e não de linfócitos (90%), além de ADA tipicamente não tão elevado como na TB.\n(D) Incorreta. A TB pleural não ocorre por \"destruição lítica direta\" da pleura pelos ácidos micólicos, mas pela potente resposta imune celular (inflamatória) do hospedeiro no local."
+  },
+  {
+    id: 17,
+    theme: "TUBERCULOSE PULMONAR E PLEURAL",
+    text: "Mulher de 29 anos, grávida de 18 semanas, procura a UBS com queixa de tosse produtiva, sudorese noturna e perda de peso leve há 4 semanas. A baciloscopia de escarro em 2 amostras revela BAAR positivo e o Teste Rápido Molecular (TRM) detecta Mycobacterium tuberculosis sensível à rifampicina.",
+    question: "A conduta adequada a ser adotada na assistência a essa gestante, segundo as diretrizes do Ministério da Saúde, é:",
+    options: [
+      { letter: "A", text: "postergar o início do tratamento até o puerpério para evitar teratogenicidade ao feto em desenvolvimento." },
+      { letter: "B", text: "iniciar o esquema modificado apenas com Isoniazida e Etambutol (2HE/4HE), evitando Pirazinamida pela toxicidade hepática fetal." },
+      { letter: "C", text: "iniciar o Esquema Básico (RIPE) imediatamente e associar Piridoxina (vitamina B6) para prevenir toxicidade neurológica." },
+      { letter: "D", text: "internar a paciente e indicar aborto terapêutico, devido ao alto risco de transmissão vertical e sepse neonatal por tuberculose." }
+    ],
+    answer: "C",
+    correctJustification: "A tuberculose na gestação deve ser tratada imediatamente, pois o risco da doença ativa para a mãe e para o feto (como baixo peso ao nascer e parto prematuro) é muito superior aos riscos dos medicamentos. O Esquema Básico (Rifampicina, Isoniazida, Pirazinamida, Etambutol - 2RHZE/4RH) é recomendado em doses habituais para gestantes. A única especificidade é a adição obrigatória de Piridoxina (vitamina B6) na dose de 50 mg/dia para prevenir neuropatia periférica na mãe e evitar toxicidade neurológica fetal secundária ao uso da Isoniazida.",
+    distractorJustification: "(A) Incorreta. A TB ativa é doença grave e contagiosa. Postergar o tratamento leva a risco de morte materna e graves desfechos fetais.\n(B) Incorreta. O esquema básico na gestação é o RIPE completo. Não se exclui rifampicina nem pirazinamida em casos sensíveis.\n(D) Incorreta. A transmissão vertical intraútero da TB é extremamente rara. A conduta é o tratamento materno curativo, que garante a segurança do bebê. Não há indicação de aborto terapêutico."
+  },
+  {
+    id: 18,
+    theme: "TUBERCULOSE PULMONAR E PLEURAL",
+    text: "Homem de 40 anos, vive com HIV (diagnosticado há 1 mês) e está em avaliação inicial no ambulatório de doenças infecciosas. Está assintomático, sem febre, tosse ou perda de peso. A radiografia de tórax é normal. O médico solicita um teste tuberculínico (PPD), que resulta reator (enduração de 15 mm).",
+    question: "Com relação ao estado da infecção pelo M. tuberculosis e sua fisiopatologia neste paciente, é correto afirmar que:",
+    options: [
+      { letter: "A", text: "o paciente possui tuberculose primária ativa disseminada, com bacilos escapando dos macrófagos, exigindo início imediato de RIPE." },
+      { letter: "B", text: "o paciente possui infecção latente, na qual o sistema imune formou granulomas mediado por linfócitos Th1 e IFN-gama, contendo bacilos viáveis em estado de baixo metabolismo." },
+      { letter: "C", text: "o paciente curou-se completamente da infecção no passado e o PPD positivo é apenas cicatriz sorológica, sem risco futuro de reativação devido à imunodeficiência adquirida." },
+      { letter: "D", text: "o bacilo encontra-se em fase de rápida replicação extracelular nas bases pulmonares, mas a ausência de sintomas se dá pela falta de resposta imune do HIV." }
+    ],
+    answer: "B",
+    correctJustification: "O paciente é assintomático, tem RX normal e PPD reator, caracterizando Infecção Latente pelo M. tuberculosis (ILTB). Na fisiopatologia da infecção latente, o sistema imunológico (especificamente macrófagos ativados por linfócitos T CD4+ do padrão Th1 liberando interferon-gama) consegue formar granulomas que contêm a infecção. Os bacilos não são erradicados, mas permanecem encapsulados e viáveis em um estado de metabolismo reduzido (latência), com risco de reativação caso ocorra imunossupressão grave (como na evolução do HIV se não tratado).",
+    distractorJustification: "(A) Incorreta. Na doença ativa/disseminada o paciente estaria sintomático ou teria alterações de imagem. O tratamento não é RIPE, e sim profilaxia para ILTB (ex: Isoniazida isolada).\n(C) Incorreta. A infecção latente significa que há bacilos vivos contidos. A presença do HIV aumenta drasticamente o risco dessa latência evoluir para reativação/doença ativa.\n(D) Incorreta. Na ILTB, o bacilo não está em rápida replicação extracelular; ele está contido intracelularmente e nos granulomas, em standby metabólico."
+  },
+  {
+    id: 19,
+    theme: "TUBERCULOSE PULMONAR E PLEURAL",
+    text: "Homem de 75 anos, morador de instituição de longa permanência, é internado no hospital terciário com quadro de febre persistente, perda de peso de 10 kg em 2 meses e dispneia progressiva. Ao exame físico: emagrecido, confuso, Tax 38,5 °C, hepatomegalia e esplenomegalia discretas. A tomografia de tórax evidencia um padrão micronodular difuso bilateral (nódulos de 1 a 2 mm), randômico, sem cavitações apicais.",
+    question: "O diagnóstico mais provável e a base fisiopatológica dessa apresentação pulmonar são:",
+    options: [
+      { letter: "A", text: "tuberculose pós-primária cavitária; devido à alta tensão de oxigênio nos lobos superiores que atrai neutrófilos." },
+      { letter: "B", text: "bronquite crônica agudizada; hiperinsuflação e aprisionamento de ar gerando microbolhas difusas." },
+      { letter: "C", text: "metástases pulmonares linfangíticas; infiltração neoplásica do epitélio brônquico proveniente da próstata." },
+      { letter: "D", text: "tuberculose miliar; falha do controle imunológico resultando em disseminação hematogênica maciça do bacilo para múltiplos órgãos." }
+    ],
+    answer: "D",
+    correctJustification: "O padrão tomográfico descrito como \"micronodular difuso e randômico\" (em grãos de milho) associado a síndrome consumptiva severa em idoso é clássico da Tuberculose Miliar. A base fisiopatológica é a falha grave da imunidade celular (frequente em extremos de idade ou imunossuprimidos), que permite que o bacilo invada a corrente sanguínea (disseminação hematogênica maciça), semeando granulomas microscópicos não apenas nos pulmões de forma difusa, mas também em baço, fígado e medula óssea.",
+    distractorJustification: "(A) Incorreta. A TB pós-primária clássica se apresenta com opacidades e cavitações nos ápices pulmonares, não com padrão micronodular difuso (\"miliar\").\n(B) Incorreta. DPOC/Bronquite não cursam com micronódulos pulmonares difusos, e sim com inflamação de via aérea, muco e/ou enfisema (destruição alveolar).\n(C) Incorreta. Linfangite carcinomatosa apresenta espessamento de septos interlobulares (padrão reticular ou reticulonodular peribroncovascular), diferente do padrão micronodular randômico (miliar) típico da disseminação hematogênica da TB."
+  },
+  {
+    id: 20,
+    theme: "TUBERCULOSE PULMONAR E PLEURAL",
+    text: "Homem de 32 anos, profissional da construção civil, está em tratamento de tuberculose pulmonar bacilífera. Ele comparece à UBS para a consulta de retorno, relatando que completou hoje exatamente 2 meses do início do esquema RIPE, com excelente tolerância, resolução da febre e desaparecimento da tosse. O médico de família e comunidade avalia o ganho de peso e o estado clínico satisfatório.",
+    question: "O próximo passo na condução desse caso é:",
+    options: [
+      { letter: "A", text: "suspender todas as medicações, visto que houve cura clínica em 2 meses, para evitar hepatotoxicidade." },
+      { letter: "B", text: "manter o esquema RIPE inalterado por mais 4 meses para prevenir cepas multirresistentes." },
+      { letter: "C", text: "solicitar radiografia de tórax e, se normal, suspender Etambutol e manter RIP por mais 4 meses." },
+      { letter: "D", text: "solicitar baciloscopia de controle e realizar a transição medicamentosa para a fase de manutenção com Rifampicina e Isoniazida (RH) por mais 4 meses." }
+    ],
+    answer: "D",
+    correctJustification: "O esquema básico de tratamento da TB sensível no Brasil dura 6 meses e é dividido em duas fases. A fase intensiva (ou de ataque) usa RIPE (Rifampicina, Isoniazida, Pirazinamida, Etambutol) por 2 meses. Completados os 2 meses, o paciente deve realizar obrigatoriamente uma baciloscopia de controle (para checar negativação e risco de falha) e, em seguida, transacionar para a fase de manutenção (ou continuação), que utiliza apenas Rifampicina e Isoniazida (RH) por mais 4 meses, totalizando os 6 meses de terapia.",
+    distractorJustification: "(A) Incorreta. A interrupção aos 2 meses leva invariavelmente à recidiva e favorece resistência. O tratamento padrão exige 6 meses completos.\n(B) Incorreta. A Pirazinamida e o Etambutol devem ser suspensos após os 2 primeiros meses no esquema sensível padrão.\n(C) Incorreta. O controle de acompanhamento clínico principal é microbiológico (baciloscopia), não apenas radiológico. E a fase de manutenção é apenas com RH, retirando-se também a Pirazinamida, não \"RIP\"."
+  },
+
+  // TEMA 5
+  {
+    id: 21,
+    theme: "TOSSE CRÔNICA E TABAGISMO",
+    text: "Mulher de 55 anos, costureira, procura a Unidade Básica de Saúde queixando-se de tosse seca e irritativa persistente há cerca de 3 meses. Nega febre, perda de peso, pirose, coriza, espirros ou dispneia. Nunca fumou. Traz consigo prescrição recente de enalapril 20 mg/dia, iniciado há 4 meses para tratamento de hipertensão arterial sistêmica. O exame físico é totalmente normal, com ausculta pulmonar limpa. Radiografia de tórax sem alterações.",
+    question: "O mecanismo fisiopatológico responsável pela principal hipótese diagnóstica neste caso envolve o acúmulo de:",
+    options: [
+      { letter: "A", text: "histamina e leucotrienos, por ativação excessiva de mastócitos brônquicos pelo fármaco." },
+      { letter: "B", text: "ácido gástrico na árvore traqueobrônquica superior secundário ao relaxamento do esfíncter esofágico induzido pelo enalapril." },
+      { letter: "C", text: "bradicinina e substância P, devido à inibição da enzima que normalmente as degrada nas vias aéreas." },
+      { letter: "D", text: "macrófagos alveolares ativados e elastase no tecido intersticial, mimetizando os efeitos do tabagismo passivo." }
+    ],
+    answer: "C",
+    correctJustification: "O quadro é clássico de tosse induzida por IECA (Inibidores da Enzima Conversora de Angiotensina, como o enalapril). Fisiologicamente, a ECA, além de converter angiotensina I em II, é responsável por degradar peptídeos inflamatórios como a bradicinina e a substância P. A inibição dessa enzima leva ao acúmulo de bradicinina no epitélio respiratório, o que estimula fibras nervosas vagais (sensibilização dos receptores da tosse) e causa tosse seca crônica.",
+    distractorJustification: "(A) Incorreta. Histamina e leucotrienos estão associados a quadros alérgicos e asma, não ao mecanismo da tosse por IECA.\n(B) Incorreta. Essa descrição remete à Doença do Refluxo Gastroesofágico (DRGE). IECA não atua relaxando esfíncter esofágico.\n(D) Incorreta. O acúmulo de macrófagos e elastase descreve a fisiopatologia da destruição alveolar na DPOC/Enfisema, não a tosse seca por fármacos."
+  },
+  {
+    id: 22,
+    theme: "TOSSE CRÔNICA E TABAGISMO",
+    text: "Homem de 48 anos, bancário, índice de massa corporal de 32 kg/m², chega ao ambulatório referindo tosse seca crônica há 6 meses, mais frequente logo após o almoço e ao se deitar para dormir. Relata sensação frequente de \"pigarro\" e gosto amargo na boca pela manhã. O paciente relata ter procurado o otorrino que indicou laringoscopia, a qual evidenciou hiperemia posterior de laringe. Ausculta pulmonar sem sibilos.",
+    question: "A hipótese diagnóstica, o provável mecanismo e a primeira linha de tratamento não medicamentoso/medicamentoso são, respectivamente:",
+    options: [
+      { letter: "A", text: "asma induzida pelo exercício; broncoespasmo por via reflexa; uso de salbutamol sob demanda." },
+      { letter: "B", text: "síndrome do gotejamento pós-nasal; secreção nasal descendo pela orofaringe; corticoide intranasal e lavagem com soro." },
+      { letter: "C", text: "tosse pós-infecciosa; hiperresponsividade residual das vias aéreas; antitussígenos centrais e inalação com brometo de ipratrópio." },
+      { letter: "D", text: "doença do refluxo gastroesofágico; microaspiração ácida e reflexo vagal esofagobrônquico; elevação da cabeceira da cama e inibidor de bomba de prótons." }
+    ],
+    answer: "D",
+    correctJustification: "A tosse relacionada a refeições, piora em decúbito, obesidade, pigarro e gosto amargo são sintomas típicos da DRGE manifestando-se com tosse crônica (manifestação extraesofágica). O ácido pode causar tosse por dois caminhos: estimulação nervosa vagal no esôfago distal ou microaspiração laringotraqueal (corroborado pela hiperemia de laringe). O tratamento envolve medidas comportamentais (elevar cabeceira, dieta) e Inibidor de Bomba de Prótons (ex: Omeprazol).",
+    distractorJustification: "(A) Incorreta. Não há relato de relação com esforço/exercício, nem sibilos, o que afasta asma como causa primária aqui.\n(B) Incorreta. Não há relato de sintomas nasais (espirros, rinorreia) e a piora relacionada a decúbito e alimentação sugere DRGE, não gotejamento nasal.\n(C) Incorreta. Não há história de infecção prévia recente (ex: gripe ou pneumonia grave há 1 mês) que embase a suspeita de tosse pós-infecciosa de hiperresponsividade."
+  },
+  {
+    id: 23,
+    theme: "TOSSE CRÔNICA E TABAGISMO",
+    text: "Homem de 28 anos, estudante de engenharia, tenta parar de fumar por conta própria pela terceira vez. Relata que consegue ficar 2 dias sem o cigarro, mas logo começa a sentir intensa irritabilidade, sudorese, falta de concentração e \"uma vontade avassaladora\" de fumar (fissura), levando à recaída. Na UBS, a enfermeira explica que ele sofre de dependência química severa.",
+    question: "A base neurobiológica que explica a dependência do cigarro e os sintomas de abstinência sofridos por este paciente consiste na ação da nicotina sobre os:",
+    options: [
+      { letter: "A", text: "receptores nicotínicos de acetilcolina na área tegmental ventral, causando picos de liberação de dopamina no núcleo accumbens, seguidos por drástica queda dopaminérgica na abstinência." },
+      { letter: "B", text: "receptores opioides endógenos cerebrais, gerando analgesia e sedação profundas, resultando em hiperatividade adrenérgica letal quando suspensa." },
+      { letter: "C", text: "canais de cálcio dependentes de voltagem do cerebelo, prejudicando o equilíbrio e causando dependência física por perda da propriocepção." },
+      { letter: "D", text: "receptores muscarínicos nas vias aéreas periféricas, induzindo relaxamento crônico e dispneia rebote no momento em que os níveis de monóxido de carbono caem." }
+    ],
+    answer: "A",
+    correctJustification: "A dependência do tabaco é uma dependência neuroquímica movida pela nicotina. A nicotina inalada alcança rapidamente o cérebro, onde se liga aos receptores nicotínicos de acetilcolina. Essa ligação ativa o sistema de recompensa cerebral (via mesolímbica), estimulando a liberação massiva de dopamina no núcleo accumbens, o que gera a sensação de prazer e bem-estar. O uso crônico leva a adaptações cerebrais. Na falta da droga, a queda de dopamina causa os sintomas de abstinência (irritabilidade, ansiedade, craving).",
+    distractorJustification: "(B) Incorreta. A nicotina não age primordialmente em receptores opioides (como heroína ou morfina), e a abstinência de nicotina, embora incômoda, não causa síndrome de hiperatividade letal adrenérgica.\n(C) Incorreta. O vício não tem relação fisiopatológica com perda de propriocepção ou canais de cálcio cerebelares.\n(D) Incorreta. A dependência é central (cerebral), não pulmonar ou periférica."
+  },
+  {
+    id: 24,
+    theme: "TOSSE CRÔNICA E TABAGISMO",
+    text: "Mulher de 52 anos, fumante desde os 15 anos (carga tabágica de 40 maços/ano), decide procurar ajuda na UBS após seu marido infartar. Ela relata fumar 30 cigarros por dia e acender o primeiro cigarro 5 minutos após acordar. O médico de família e comunidade inicia o protocolo do Programa Nacional de Controle do Tabagismo (PNCT) do SUS, prescrevendo tratamento farmacológico.",
+    question: "Qual esquema farmacológico é disponibilizado no SUS e tem indicação clínica forte devido ao alto grau de dependência desta paciente?",
+    options: [
+      { letter: "A", text: "Cloridrato de bupropiona oral e terapia de reposição de nicotina (adesivos transdérmicos e/ou gomas de mascar)." },
+      { letter: "B", text: "Vareniclina em monoterapia por 12 meses associada a sessões diárias de psicanálise no posto de saúde." },
+      { letter: "C", text: "Inibidores da ECA contínuos para reduzir o craving somados à meditação e auriculoterapia." },
+      { letter: "D", text: "Clonazepam em doses progressivas e reposição parenteral de dopamina sintética." }
+    ],
+    answer: "A",
+    correctJustification: "O SUS (através do PNCT) oferece tratamento multiprofissional (sessões de abordagem cognitivo-comportamental) associado a suporte medicamentoso para pacientes com alto nível de dependência (como fumar > 20 cigarros/dia ou no início da manhã). O protocolo prevê a Terapia de Reposição de Nicotina (TRN), que inclui adesivos, gomas de mascar e pastilhas, e um medicamento não-nicotínico, que é o antidepressivo atípico Cloridrato de Bupropiona.",
+    distractorJustification: "(B) Incorreta. A vareniclina, apesar de ser excelente droga antitabagismo, não faz parte da lista nacional padrão de distribuição rotineira e ampla do SUS (devido a custos/fornecimento e decisões da Conitec), sendo o pilar do SUS a TRN e bupropiona. Além disso, não há sessões diárias de psicanálise.\n(C) Incorreta. IECA são anti-hipertensivos, não drogas antitabagismo.\n(D) Incorreta. Benzodiazepínicos (clonazepam) não são o padrão para tratamento do tabagismo e não se usa dopamina endovenosa para tratar dependência."
+  },
+  {
+    id: 25,
+    theme: "TOSSE CRÔNICA E TABAGISMO",
+    text: "Homem de 34 anos foi diagnosticado com Influenza A há 1 mês, apresentando febre, mialgia intensa e tosse secretiva na ocasião. O quadro sistêmico resolveu espontaneamente após 7 dias, contudo, o paciente relata à médica da UPA que a tosse se manteve até hoje, agora seca, irritativa, piorando ao falar muito ou ao inalar ar frio de ar-condicionado. Nega sibilância prévia e RX atual é normal.",
+    question: "Considerando o quadro de tosse crônica pós-infecciosa, a justificativa fisiopatológica e a conduta recomendada baseiam-se em:",
+    options: [
+      { letter: "A", text: "infecção viral ainda latente no epitélio; indicação de oseltamivir por mais 10 dias." },
+      { letter: "B", text: "colonização bacteriana silenciosa nas pequenas vias aéreas; prescrição de azitromicina." },
+      { letter: "C", text: "inflamação residual e hiperresponsividade transitória dos receptores da tosse; prescrição de corticoide inalatório ou ipratrópio e tranquilização do paciente." },
+      { letter: "D", text: "formação precoce de bronquiectasias cilíndricas secundárias à destruição viral; encaminhamento urgente à fisioterapia respiratória." }
+    ],
+    answer: "C",
+    correctJustification: "A tosse pós-infecciosa é muito comum e ocorre devido a uma inflamação residual prolongada na mucosa respiratória, além do aumento da sensibilidade dos receptores da tosse (hiperresponsividade brônquica transitória) causados pela agressão viral epitelial inicial. Sendo de natureza inflamatória e irritativa (e não mais infecciosa ativa), a conduta envolve tratar o sintoma e reduzir a inflamação, frequentemente com uso de corticoides inalatórios (ou orais em casos graves) ou broncodilatadores anticolinérgicos (brometo de ipratrópio), sendo um quadro autolimitado ao longo de semanas.",
+    distractorJustification: "(A) Incorreta. O vírus não está \"latente\" gerando tosse após 1 mês; o dano inflamatório é que persiste. Oseltamivir só é eficaz nas primeiras 48-72h do início dos sintomas da Influenza aguda.\n(B) Incorreta. A tosse é seca e sem febre, não havendo indício de superinfecção bacteriana que embase uso empírico de antibióticos.\n(D) Incorreta. Vírus respiratórios comuns não geram destruição estrutural maciça do parênquima em bronquiectasias em 1 mês numa pessoa normal; bronquiectasias teriam secreção purulenta crônica e alteração na TC."
+  },
+
+  // TEMA 6
+  {
+    id: 26,
+    theme: "NEOPLASIA PULMONAR E NÓDULOS",
+    text: "Homem de 67 anos, tabagista ativo de 50 maços/ano e ex-trabalhador da construção civil (exposto a asbesto no passado), realiza radiografia de tórax de rotina, que mostra uma imagem suspeita. O médico solicita tomografia de tórax, que evidencia um nódulo sólido de 15 mm no lobo superior direito, de contornos irregulares e espiculados, associado a leve retração pleural (sinal da cauda pleural/TAG).",
+    question: "Segundo os consensos de investigação do nódulo pulmonar (Diretrizes de Fleischner), a avaliação do risco deste paciente e a conduta de escolha são:",
+    options: [
+      { letter: "A", text: "risco baixo (<5%); acompanhar o paciente com raios-X anuais, pois o tamanho não caracteriza massa e não há sintomas." },
+      { letter: "B", text: "risco intermediário (5-65%); prescrever antibiótico de amplo espectro por 14 dias e repetir a tomografia para afastar etiologia fúngica." },
+      { letter: "C", text: "risco alto (>65%); o paciente deve ser submetido a investigação mais invasiva e estadiamento com PET-CT e/ou biópsia transtorácica." },
+      { letter: "D", text: "risco altíssimo; indicação imediata de lobectomia direita de urgência sem biópsia prévia, para evitar disseminação para o mediastino contralateral." }
+    ],
+    answer: "C",
+    correctJustification: "A probabilidade de malignidade deste nódulo é classificada como ALTA (>65%). Os preditores de alto risco presentes são: idade avançada, histórico de tabagismo pesado, tamanho do nódulo > 8mm (tem 15mm), contornos irregulares/espiculados, estria pleural e localização no lobo superior. O protocolo de Fleischner para nódulo sólido > 8 mm e alto risco demanda investigação imediata, com Tomografia em 3 meses para controle em casos duvidosos, ou o que é mais frequente na prática clínica de suspeição direta: PET-CT ou amostragem tecidual (biópsia).",
+    distractorJustification: "(A) Incorreta. O risco é altíssimo. Acompanhamento não é opção para nódulos espiculados > 8mm em pacientes com esses fatores de risco.\n(B) Incorreta. \"Teste terapêutico\" com antibióticos sem evidência de infecção ativa em nódulos suspeitos atrasa o diagnóstico do câncer e não é recomendado pelos protocolos.\n(D) Incorreta. Mesmo com alta suspeita, não se faz ressecção cirúrgica de grande porte \"às cegas\" na emergência sem estadiamento prévio (ver se não há metástase ou N2/N3) e sem diagnóstico histológico pré-operatório ou peroperatório (por congelação)."
+  },
+  {
+    id: 27,
+    theme: "NEOPLASIA PULMONAR E NÓDULOS",
+    text: "Homem de 40 anos, professor de educação física, não tabagista, assintomático, realiza exames admissionais. A radiografia detecta um nódulo pulmonar incidental. A tomografia de tórax detalha tratar-se de um nódulo solitário bem delimitado de 2 cm no lobo inferior esquerdo, exibindo presença de focos de gordura no seu interior e calcificações do tipo \"em pipoca\" (popcorn).",
+    question: "O diagnóstico mais provável para este achado radiológico benigno e sua composição tecidual é:",
+    options: [
+      { letter: "A", text: "tuberculose latente (granuloma); composto predominantemente por tecido necrótico caseoso e linfócitos." },
+      { letter: "B", text: "lipoma intrapulmonar primário; tumor composto exclusivamente por proliferação de adipócitos maduros da parede brônquica." },
+      { letter: "C", text: "hamartoma pulmonar; malformação composta por crescimento desorganizado de tecidos maduros normais do órgão, como cartilagem, gordura e epitélio respiratório." },
+      { letter: "D", text: "carcinoma de grandes células; neoplasia maligna neuroendócrina produtora de calcificação paraneoplásica." }
+    ],
+    answer: "C",
+    correctJustification: "As características tomográficas de nódulo pulmonar com margens lisas contendo calcificações grosseiras descritas como \"em pipoca\" (popcorn calcification) e focos de gordura macroscópica são patognomônicas de um Hamartoma Pulmonar. O hamartoma é o tumor benigno pulmonar mais frequente. Fisiopatologicamente, não é um \"tumor\" celular agressivo clássico, mas uma lesão de caráter malformativo, formada por tecidos nativos daquele órgão misturados de forma anômala (cartilagem e tecido adiposo explicam a calcificação pipoca e densidade de gordura).",
+    distractorJustification: "(A) Incorreta. Granulomas fúngicos ou da tuberculose se calcificam, mas costumam ter calcificação central, difusa ou em casca de ovo, e não possuem tecido de gordura macroscópica intralesional típica de hamartomas.\n(B) Incorreta. Um lipoma seria apenas gordura. A calcificação em pipoca sugere cartilagem, clássico do hamartoma (que junta gordura e cartilagem).\n(D) Incorreta. Carcinomas não se apresentam tipicamente com bordos bem delimitados lisos, padrão de calcificação em pipoca ou gordura intralesional franca. É um perfil maligno não condizente com o enunciado."
+  },
+  {
+    id: 28,
+    theme: "NEOPLASIA PULMONAR E NÓDULOS",
+    text: "Homem de 58 anos é diagnosticado com Adenocarcinoma de Pulmão no lobo inferior esquerdo (tamanho tumoral de 4 cm). Realiza os exames de estadiamento sistêmico, incluindo PET-CT, que não mostra focos hipermetabólicos em fígado, ossos ou adrenais (ausência de metástase distante). No entanto, o exame detecta atividade metabólica suspeita de infiltração neoplásica nos linfonodos mediastinais do lado direito (contralaterais à lesão primária). Biópsia por mediastinoscopia confirma a invasão linfonodal contralateral.",
+    question: "Segundo a classificação TNM para neoplasia de pulmão e suas implicações práticas de conduta, o estágio linfonodal (N) desse paciente e sua operabilidade inicial são:",
+    options: [
+      { letter: "A", text: "estágio N1; o tumor deve ser operado imediatamente por lobectomia associada a linfadenectomia." },
+      { letter: "B", text: "estágio N2; o paciente encontra-se no limite da operabilidade e deve receber quimioterapia neoadjuvante antes da cirurgia." },
+      { letter: "C", text: "estágio N3; a doença é considerada irressecável inicialmente, sendo o tratamento padrão a quimiorradioterapia definitiva não operatória." },
+      { letter: "D", text: "estágio Nx; a ausência de metástase distante (M0) garante a cura cirúrgica independente dos linfonodos." }
+    ],
+    answer: "C",
+    correctJustification: "O estadiamento linfonodal (N) no câncer de pulmão é o principal balizador de conduta cirúrgica. \n- N1: metástase em gânglios hilares/peribrônquicos do mesmo lado. (Opera)\n- N2: metástase em gânglios mediastinais ou subcarinais do mesmo lado ipsilateral. (Cenário cinza, geralmente estágio IIIA, avalia-se multimodal).\n- N3: metástase em gânglios do lado oposto (contralateral) mediastinais/hilares ou em supraclaviculares/escalenos. Como há infiltração do mediastino contralateral no caso (N3), o estadiamento é pelo menos IIIB/IIIC, sendo considerado fora de possibilidade cirúrgica curativa inicial. O foco muda para Quimioterapia + Radioterapia.",
+    distractorJustification: "(A) Incorreta. N1 refere-se ao linfonodo hilar ipsilateral.\n(B) Incorreta. N2 refere-se ao mediastinal ipsilateral (mesmo lado da lesão). A invasão do lado oposto joga para N3.\n(D) Incorreta. A presença de N3, mesmo sendo M0, define a doença como locorregionalmente muito avançada e inoperável. O estadiamento dos gânglios dita a cirurgia tanto quanto a metástase."
+  },
+  {
+    id: 29,
+    theme: "NEOPLASIA PULMONAR E NÓDULOS",
+    text: "Homem de 55 anos tem antecedente de tratamento curativo de adenocarcinoma de cólon há 3 anos. Realizou exames de seguimento oncológico e a tomografia revelou o surgimento de um nódulo único de 2,5 cm no lobo inferior direito. Após exames invasivos, foi confirmada metástase pulmonar de origem colorretal. Pesquisa exaustiva (PET-CT, RNM de crânio) não revela doença em nenhum outro órgão do corpo. Prova de função pulmonar aponta excelente reserva respiratória e o tumor intestinal inicial não tem sinais de recidiva local.",
+    question: "Com base nos critérios cirúrgicos para tratamento de metástases pulmonares, a equipe médica deve optar por:",
+    options: [
+      { letter: "A", text: "encaminhar para cuidados paliativos exclusivos, uma vez que metástases hematogênicas de tumores epiteliais sempre tornam a doença incurável e inoperável no tórax." },
+      { letter: "B", text: "indicar metastectomia cirúrgica com intuito curativo, pois os critérios de primário controlado, ausência de outra metástase e reserva funcional estão preenchidos." },
+      { letter: "C", text: "prescrever radioterapia de tórax estritamente paliativa para prevenir obstrução de via aérea." },
+      { letter: "D", text: "realizar lobectomia inferior direita acompanhada de quimioterapia neoadjuvante sistêmica, sabendo-se que tumores primários intestinais não dão metástases por via linfática pulmonar." }
+    ],
+    answer: "B",
+    correctJustification: "Embora metástases sistêmicas configurem estágio avançado, a cirurgia pulmonar (metastectomia) com intenção de cura é muito bem estabelecida e indicada (aumentando a sobrevida) se critérios estritos forem preenchidos:\n1. O tumor primário está controlado.\n2. Não há evidências de metástases fora do pulmão.\n3. A ressecção pode ser completa (margens livres), com sacrifício mínimo do parênquima.\n4. O paciente possui risco cirúrgico e função pulmonar adequados.\nComo o paciente preenche todos os requisitos, a cirurgia de metastectomia pulmonar é a conduta ideal.",
+    distractorJustification: "(A) Incorreta. Metástases pulmonares de origem colônica, renais e osteossarcomas, quando únicas/oligometastáticas, têm excelentes respostas à ressecção cirúrgica curativa.\n(C) Incorreta. A radioterapia seria paliativa e só indicada se o paciente não tolerasse a cirurgia ou a metástase fosse irressecável/sangrante. O intuito aqui pode ser curativo.\n(D) Incorreta. O princípio cirúrgico na metastectomia é a economia de tecido (ressecção em cunha ou segmentectomia de precisão para tirar a lesão com bordas limpas, sem necessariamente tirar o lobo inteiro). Além disso, a premissa final na afirmativa é falsa."
+  },
+  {
+    id: 30,
+    theme: "NEOPLASIA PULMONAR E NÓDULOS",
+    text: "Mulher de 60 anos, com achado tomográfico de massa pulmonar de 4 cm no ápice esquerdo, tem suspeita diagnóstica de câncer de pulmão. Durante a discussão de casos, o oncologista torácico solicita que a paciente seja encaminhada para a realização de PET-Scan (Tomografia por Emissão de Pósitrons acoplada à TC) para estadiamento e detecção de metástases linfonodais ou a distância.",
+    question: "Qual é a base fisiológica e metabólica que permite ao PET-Scan diferenciar, na maioria dos casos, áreas tumorais de áreas de tecido saudável?",
+    options: [
+      { letter: "A", text: "As células neoplásicas têm maior metabolismo lipídico e captam intensamente marcadores radioativos à base de colesterol depositados na corrente sanguínea." },
+      { letter: "B", text: "As células tumorais possuem menor metabolismo glicolítico que o tecido sadio, aparecendo como áreas radioluscentes e metabolicamente \"frias\" na imagem." },
+      { letter: "C", text: "As células neoplásicas exibem metabolismo acentuado com altíssima taxa de glicólise, captando e acumulando preferencialmente o radiofármaco fluorodesoxiglicose (18F-FDG)." },
+      { letter: "D", text: "O tumor bloqueia a captação capilar pulmonar de íons de cálcio, gerando sinais de déficit de contraste em áreas de alto fluxo vascular maligno." }
+    ],
+    answer: "C",
+    correctJustification: "O PET-Scan utiliza um radiofármaco, comumente a fluordesoxiglicose marcada com flúor-18 (18F-FDG), que é um análogo da glicose (açúcar). As células do câncer de pulmão têm um metabolismo celular muito acelerado e se reproduzem rápido, o que exige muita energia. Por causa do chamado Efeito Warburg (alta taxa de glicólise aeróbica), elas captam e acumulam intensamente a glicose marcada pelo exame (áreas de hipermetabolismo e captação de FDG, gerando o brilho nas imagens).",
+    distractorJustification: "(A) Incorreta. O PET-Scan oncológico padrão não é baseado no metabolismo lipídico ou colesterol, e sim na glicose.\n(B) Incorreta. Tumores aparecem de forma hipermetabólica (\"quentes\" na escala de cores SUV), pois consomem muita glicose, não porque consomem menos.\n(D) Incorreta. A técnica não utiliza bloqueio vascular de íons de cálcio; é essencialmente bioquímica relacionada ao metabolismo intracelular de açúcar."
+  }
+];
+
+export default function App() {
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [selectedOption, setSelectedOption] = useState(null);
+  const [isAnswered, setIsAnswered] = useState(false);
+  const [score, setScore] = useState(0);
+  const [quizCompleted, setQuizCompleted] = useState(false);
+
+  // Restart quiz
+  const handleRestart = () => {
+    setCurrentQuestionIndex(0);
+    setSelectedOption(null);
+    setIsAnswered(false);
+    setScore(0);
+    setQuizCompleted(false);
+  };
+
+  const handleOptionSelect = (letter) => {
+    if (!isAnswered) {
+      setSelectedOption(letter);
+    }
+  };
+
+  const handleAnswerSubmit = () => {
+    if (selectedOption && !isAnswered) {
+      setIsAnswered(true);
+      if (selectedOption === quizData[currentQuestionIndex].answer) {
+        setScore((prev) => prev + 1);
+      }
+    }
+  };
+
+  const handleNextQuestion = () => {
+    if (currentQuestionIndex < quizData.length - 1) {
+      setCurrentQuestionIndex((prev) => prev + 1);
+      setSelectedOption(null);
+      setIsAnswered(false);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      setQuizCompleted(true);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
+
+  if (quizCompleted) {
+    const percentage = Math.round((score / quizData.length) * 100);
+    return (
+      <div className="min-h-screen bg-slate-50 flex flex-col items-center justify-center p-6 text-slate-800 font-sans">
+        <div className="bg-white p-8 rounded-2xl shadow-xl max-w-lg w-full text-center">
+          <Award className="w-20 h-20 mx-auto text-blue-600 mb-6" />
+          <h1 className="text-3xl font-bold mb-2">Simulado Concluído!</h1>
+          <p className="text-slate-500 mb-6">Aqui está o seu desempenho no ENAMED - PCC III</p>
+          
+          <div className="text-6xl font-extrabold text-blue-600 mb-2">
+            {score} <span className="text-2xl text-slate-400">/ {quizData.length}</span>
+          </div>
+          <p className="text-lg font-medium text-slate-600 mb-8">
+            Você acertou {percentage}% das questões.
+          </p>
+
+          <button 
+            onClick={handleRestart}
+            className="w-full flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl transition-colors"
+          >
+            <RotateCcw className="w-5 h-5" />
+            Refazer o Simulado
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  const currentQuestion = quizData[currentQuestionIndex];
+
+  return (
+    <div className="min-h-screen bg-slate-100 py-8 px-4 font-sans text-slate-800">
+      <div className="max-w-4xl mx-auto">
+        
+        {/* Header & Progress */}
+        <header className="mb-8">
+          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4">
+            <div>
+              <h1 className="text-2xl font-bold text-slate-900 flex items-center gap-2">
+                <BookOpen className="text-blue-600" />
+                ENAMED - PCC III
+              </h1>
+              <p className="text-sm font-medium text-slate-500 mt-1 uppercase tracking-wider">
+                {currentQuestion.theme}
+              </p>
+            </div>
+            <div className="mt-4 sm:mt-0 font-semibold text-blue-600 bg-blue-50 px-4 py-2 rounded-full border border-blue-100">
+              Questão {currentQuestionIndex + 1} de {quizData.length}
+            </div>
+          </div>
+          
+          <div className="w-full bg-slate-200 rounded-full h-2.5">
+            <div 
+              className="bg-blue-600 h-2.5 rounded-full transition-all duration-300" 
+              style={{ width: `${((currentQuestionIndex) / quizData.length) * 100}%` }}
+            ></div>
+          </div>
+        </header>
+
+        {/* Question Card */}
+        <main className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6">
+          <div className="p-6 sm:p-8">
+            {/* Enunciado */}
+            <p className="text-lg leading-relaxed mb-6 whitespace-pre-line">
+              {currentQuestion.text}
+            </p>
+
+            {/* Table (If exists) */}
+            {currentQuestion.table && (
+              <div className="overflow-x-auto mb-6">
+                <table className="w-full border-collapse text-sm text-left text-slate-600">
+                  <thead className="bg-slate-50 text-slate-800">
+                    <tr>
+                      {currentQuestion.table.headers.map((h, i) => (
+                        <th key={i} className="px-4 py-3 border-b border-slate-200 font-semibold">{h}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {currentQuestion.table.rows.map((row, i) => (
+                      <tr key={i} className="border-b border-slate-100 hover:bg-slate-50/50">
+                        {row.map((cell, j) => (
+                          <td key={j} className="px-4 py-3">{cell}</td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+
+            {/* Pergunta Pivot */}
+            <p className="text-xl font-bold text-slate-900 mb-6">
+              {currentQuestion.question}
+            </p>
+
+            {/* Options */}
+            <div className="space-y-3">
+              {currentQuestion.options.map((option) => {
+                const isSelected = selectedOption === option.letter;
+                const isCorrect = isAnswered && option.letter === currentQuestion.answer;
+                const isWrongSelected = isAnswered && isSelected && !isCorrect;
+
+                let optionClass = "border-slate-200 hover:border-blue-300 hover:bg-blue-50/50";
+                if (isSelected && !isAnswered) optionClass = "border-blue-500 bg-blue-50 ring-1 ring-blue-500";
+                if (isCorrect) optionClass = "border-green-500 bg-green-50 ring-1 ring-green-500";
+                if (isWrongSelected) optionClass = "border-red-500 bg-red-50 ring-1 ring-red-500";
+
+                return (
+                  <button
+                    key={option.letter}
+                    onClick={() => handleOptionSelect(option.letter)}
+                    disabled={isAnswered}
+                    className={`w-full text-left p-4 rounded-xl border-2 transition-all flex items-start gap-4 ${optionClass} ${isAnswered ? 'cursor-default' : 'cursor-pointer'}`}
+                  >
+                    <span className={`flex-shrink-0 w-8 h-8 rounded-lg flex items-center justify-center font-bold text-sm
+                      ${isCorrect ? 'bg-green-500 text-white' : 
+                        isWrongSelected ? 'bg-red-500 text-white' : 
+                        isSelected ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-600'}`}>
+                      {option.letter}
+                    </span>
+                    <span className={`text-base leading-relaxed mt-0.5 ${isCorrect ? 'text-green-900 font-medium' : isWrongSelected ? 'text-red-900' : 'text-slate-700'}`}>
+                      {option.text}
+                    </span>
+                    
+                    {/* Status Icons */}
+                    {isCorrect && <CheckCircle2 className="w-6 h-6 text-green-500 ml-auto flex-shrink-0 mt-1" />}
+                    {isWrongSelected && <XCircle className="w-6 h-6 text-red-500 ml-auto flex-shrink-0 mt-1" />}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Action Area */}
+          <div className="bg-slate-50 border-t border-slate-200 p-6 sm:px-8 flex items-center justify-between">
+            {!isAnswered ? (
+              <button
+                onClick={handleAnswerSubmit}
+                disabled={!selectedOption}
+                className={`w-full sm:w-auto px-8 py-3 rounded-xl font-bold transition-colors ${
+                  selectedOption 
+                  ? 'bg-blue-600 hover:bg-blue-700 text-white shadow-md' 
+                  : 'bg-slate-200 text-slate-400 cursor-not-allowed'
+                }`}
+              >
+                Responder
+              </button>
+            ) : (
+              <button
+                onClick={handleNextQuestion}
+                className="w-full sm:w-auto ml-auto px-8 py-3 rounded-xl font-bold bg-slate-900 hover:bg-slate-800 text-white shadow-md flex items-center justify-center gap-2 transition-colors"
+              >
+                {currentQuestionIndex < quizData.length - 1 ? 'Próxima Questão' : 'Finalizar Simulado'}
+                <ArrowRight className="w-5 h-5" />
+              </button>
+            )}
+          </div>
+        </main>
+
+        {/* Feedback Section */}
+        {isAnswered && (
+          <div className={`rounded-2xl shadow-sm border p-6 sm:p-8 animate-in slide-in-from-bottom-4 fade-in duration-300 ${
+            selectedOption === currentQuestion.answer ? 'bg-green-50 border-green-200' : 'bg-red-50 border-red-200'
+          }`}>
+            <div className="flex items-center gap-3 mb-4">
+              {selectedOption === currentQuestion.answer ? (
+                <>
+                  <CheckCircle2 className="w-8 h-8 text-green-600" />
+                  <h2 className="text-2xl font-bold text-green-900">Você Acertou!</h2>
+                </>
+              ) : (
+                <>
+                  <XCircle className="w-8 h-8 text-red-600" />
+                  <h2 className="text-2xl font-bold text-red-900">Alternativa Incorreta</h2>
+                </>
+              )}
+            </div>
+            
+            <div className="space-y-6">
+              <div className="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                <h3 className="text-sm font-bold text-blue-600 uppercase tracking-wider flex items-center gap-2 mb-2">
+                  <CheckCircle2 className="w-4 h-4" /> Justificativa da Correta (Gabarito: {currentQuestion.answer})
+                </h3>
+                <p className="text-slate-700 leading-relaxed">
+                  {currentQuestion.correctJustification}
+                </p>
+              </div>
+
+              <div className="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                <h3 className="text-sm font-bold text-slate-500 uppercase tracking-wider flex items-center gap-2 mb-2">
+                  <AlertCircle className="w-4 h-4" /> Análise das Distratoras
+                </h3>
+                <p className="text-slate-600 leading-relaxed whitespace-pre-line">
+                  {currentQuestion.distractorJustification}
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
+
+      </div>
+    </div>
+  );
+}
+
